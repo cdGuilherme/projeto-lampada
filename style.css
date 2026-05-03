@@ -1,0 +1,50 @@
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* 1. Use um modelo de box-sizing mais intuitivo */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Centralizar a pagina */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* Definir o tamanho da página */
+header,
+section {
+    width: 100%;
+    max-width: 48rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+input {
+    margin: 0.125rem 0;
+}
+
+input[type="button"] {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
